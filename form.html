@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <title>Conatct US</title>
+    <link rel="stylesheet" href= "form.css" type="text/css"/>
+    
+</head>
+<body>
+<h1 style="text-align: center;">Contacting Form</h1>   
+ <form name="conatcting" action="https://formspree.io/f/mayvpjwg" onsubmit="" method="post">
+     <label for="conatcting-name">Name:</label>
+<input name="username" 
+id="nme"
+ type="text"
+  maxlength="50" 
+  autocomplete="Name"
+required
+tabindex="1"/>
+
+<label for="conatcting-name">Email Address:</label>
+<input name="Email" 
+id="eml"
+ type="text"
+  maxlength="100" 
+  autocomplete="Email Address"
+ required
+tabindex="2"/>
+
+<label for="conatcting-name"> Address:</label>
+<input name="Address" 
+id="adr"
+ type="text"
+  maxlength="100" 
+  autocomplete="Address"
+  required
+tabindex="3"/>
+
+<label for="conatcting-college"> College:</label>
+<input name="College" 
+id="clg"
+ type="text"
+  maxlength="100" 
+  autocomplete="College"
+  required
+tabindex="4"/>
+
+
+<label for="city">City:</label>
+<input 
+list="city" 
+name="city"
+ id="City"
+ required
+ tabindex="5">
+
+<datalist id="city">
+  <option value="Brampton">
+  <option value="Mississuaga">
+  <option value="North York">
+  <option value="Vaughn">
+  <option value="Eitobico">
+</datalist>
+
+
+    <label for="Postal_code">Postal Code:</label>
+    <input type="text" 
+    id="country_code"
+     name="country_code"
+    pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"
+    tabindex="6"
+     title="Three letter country code">
+
+     <div id="hide">
+     <input 
+     type="radio"
+     name="1"
+     checked
+      id="qty">
+      <label for="qty">Question</label>
+      <br>
+    <input
+    type="radio"
+    name="1"
+     id="cmt">
+    
+     <label for="cmt">Comment</label>
+</div>
+
+<div id="display">
+    <input
+    type="radio"
+    name="1"
+    
+     id="hire">
+     <label for="hire">Hiring</label>
+</div>
+<div id="show">
+    <label for="Pay">Hourly Pay:</label>
+    <input
+    name="Pay"
+     id="pay">
+</div>
+
+
+<label for="txt-area">Text-Box:</label>
+<textarea id="txt-area"
+name="text"
+rows="5"
+placeholder="Please give the feedback...."
+tabindex="7">
+</textarea>
+
+<div class="butns">
+<input type="submit"
+id="btn1" 
+name="Submit"
+  value="Submit"
+   tabindex="8">
+
+   <input type="reset"
+   name="Reset"
+   id="btn2" 
+    value="Reset"
+     tabindex="9">
+</div>
+    </form>
+    <script src="hid.js"></script>
+</body>
+</html>
+
